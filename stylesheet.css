@@ -37,10 +37,42 @@ p
 .paragraph3
 {
 	background-color: #e5e4d7;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
 	color: purple;
 	font-size: 15px;
 	line-height: 1.5em;
+	padding: 20px;
+}
 
+.paragraph4
+{
+	background-color: #e5e4d7;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	color: black;
+	font-size: 15px;
+	line-height: 1.5em;
+	margin: 20px;
+	margin-top: 50px;
+	margin-left: 400px;
+	padding: 20px;
+}
+
+.imagec
+{
+	background-color: silver;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	display: block;
+	height: 25%;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3px;
 }
 
 .underline
