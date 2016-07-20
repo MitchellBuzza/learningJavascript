@@ -1,0 +1,32 @@
+body
+{
+	color: green;
+	font-family: verdana, Arial, Geneva, Arial Black;
+	font-weight: lighter;
+}
+
+h1, h2
+{
+	text-decoration: underline;
+}
+
+p
+{
+	font-family: Helvetica;
+	font-size: 25px;
+}
+
+.blue
+{
+	color: blue;
+}
+
+p.purple /*Specifies only p elements should be purple*/
+{
+	color: purple;
+}
+
+.underline
+{
+	text-decoration: underline;
+}
