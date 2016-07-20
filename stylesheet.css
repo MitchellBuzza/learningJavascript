@@ -14,6 +14,7 @@ p
 {
 	font-family: Helvetica;
 	font-size: 25px;
+	color: purple;
 }
 
 .blue
@@ -21,9 +22,19 @@ p
 	color: blue;
 }
 
-p.purple /*Specifies only p elements should be purple*/
+.paragraph1 
 {
-	color: purple;
+	
+}
+
+.paragraph2 
+{
+
+}
+
+.paragraph3
+{
+	font-style: italic;
 }
 
 .underline
