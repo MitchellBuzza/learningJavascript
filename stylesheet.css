@@ -4,41 +4,51 @@ body
 	font-family: verdana, Arial, Geneva, Arial Black;
 	font-weight: lighter;
 	background-color: #ffcf79;
+	font-size: 25px;
 }
 
-h1, h2
+h1
 {
+	font-size: 150%; //Increases the inherited font-size from body
+	text-decoration: underline;
+}
+
+h2
+{
+	font-size: 1.2em; //Multiplies the inherited font-size by 1.2
 	text-decoration: underline;
 }
 
 p
 {
-	font-family: Helvetica;
-	font-size: 25px;
 	color: purple;
-}
-
-.blue
-{
-	color: blue;
 }
 
 .paragraph1 
 {
-	
+	color: blue;
 }
 
 .paragraph2 
 {
-
+	color: purple;
 }
 
 .paragraph3
 {
-	font-style: italic;
+	background-color: #e5e4d7;
+	color: purple;
+	font-size: 15px;
+	line-height: 1.5em;
+
 }
 
 .underline
 {
 	text-decoration: underline;
+}
+
+.blue
+{
+	color: blue;
 }
